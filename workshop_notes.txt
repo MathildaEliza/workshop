@@ -1,0 +1,5 @@
+For Mac problems, after rbenv install, type this and restart Terminal:
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
+source ~/.zshrc
+
+use bash_profile if bash  
